@@ -43,4 +43,5 @@ else
     echo "Missing conf/assignment.txt, no assignment to run"
     exit 1
 fi
+export SKIP_BUILD=1
 exit ${unit_test_rc}
